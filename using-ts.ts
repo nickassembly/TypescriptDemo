@@ -11,3 +11,4 @@ button.addEventListener("click", function() {
     console.log(add(+input1.value, +input2.value));
 });
 
+// ctrl + alt + n for advance new file
