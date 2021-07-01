@@ -1,1 +1,1 @@
-console.log('Something goes here...');
+console.log('Something new goes here...');
