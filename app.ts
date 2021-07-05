@@ -1,19 +1,18 @@
+// const person: {
+//     name: string;
+//     age: number;
+// } = {
+    const person = {
+    name: 'Nick',
+    age: 42,
+    hobbies: ['Sports', 'Cooking']
+};
 
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-    const result = n1 + n2;
-    if(showResult) {
-    console.log (phrase + result);
-    } else {
-        return result;
-    }
+let favoriteActivities: string[];
+favoriteActivities = ['Sports'];
+
+console.log(person.name);
+
+for (const hobby of person.hobbies) {
+    console.log(hobby.toUpperCase());
 }
-
-let number1: number;
-number1 = 5;
-const number2 = 2.8;
-const printResult = true;
-let resultPhrase = 'Result is: ';
-
-add(number1, number2, printResult, resultPhrase);
-
-
