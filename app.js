@@ -1,2 +1,2 @@
 "use strict";
-var userName = 'Nick';
+const userName = 'Nick';
